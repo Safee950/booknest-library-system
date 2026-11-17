@@ -1,0 +1,42 @@
+/* Simple custom styles on top of Bootstrap */
+body {
+  background-color: #f4f6f9;
+  min-height: 100vh;
+}
+
+/* landing page banner */
+.hero {
+  background: linear-gradient(135deg, #0d6efd, #0a3d91);
+  padding: 100px 0;
+}
+
+.about-text {
+  max-width: 700px;
+}
+
+.icon-big {
+  font-size: 2.5rem;
+}
+
+.profile-icon {
+  font-size: 6rem;
+}
+
+/* login and register cards */
+.form-card {
+  margin: 60px 0;
+}
+
+.card {
+  border: none;
+}
+
+/* small screens */
+@media (max-width: 576px) {
+  .hero {
+    padding: 60px 0;
+  }
+  .hero h1 {
+    font-size: 2rem;
+  }
+}
